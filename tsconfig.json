@@ -21,6 +21,12 @@
     "declaration": false,
     "sourceMap": true
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules", "dist", "tests", "prisma/seed.ts"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts"],
+  "exclude": [
+  "node_modules",
+  "dist",
+  "tests",
+  "src/tests",
+  "prisma/seed.ts"
+]
 }
